@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -248,3 +249,255 @@ footer .question {
   flex-direction: column;
   gap: 23px;
 }
+=======
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  background-image: url("assest/image/bg.jpg");
+  height: 70vh;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.74;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 60vw;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  height: 62px;
+}
+
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  
+  position: relative;
+  z-index: 10;
+}
+
+body {
+  background-color: black;
+}
+
+.hero {
+  font-family: "Poppins", sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 23px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(45, 44, 44);
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 3px 8px;
+  font-family: 400;
+  color: white;
+  background-color: rgba(195, 186, 186, 0.376);
+  border-radius: 4px;
+  border-color: white;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main input {
+  padding: 7px 101px 8px 14px;
+  color: white;
+  font-weight: 900;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(139, 136, 136, 0.7);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 50vw;
+  color: white;
+  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .first{
+    flex-wrap: wrap;
+  }
+  
+}
+
+.secimg {
+  position: relative;
+}
+
+.secimg img {
+  width: 345px;
+  z-index: 10;
+  position: relative;
+}
+
+.secimg video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 345px;
+}
+
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0px;
+
+}
+
+section.first > div :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+section.first > div :nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+
+.faqbox:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.faq svg {
+  filter: invert();
+}
+
+.faqbox {
+  transition: all 0.5s ease-out;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  background-color: rgb(63, 57, 57);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+footer {
+  color: white;
+  margin: auto;
+  max-width: 60vw;
+  padding: 34px;
+}
+
+footer .question {
+  padding: 34px 0;
+}
+
+/* @media screen and (max-width: 1300px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+} */
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: auto;
+}
+
+.footer a {
+  font-size: 15px;
+  color: white;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+>>>>>>> 9dc4b3af78627143aae561b69ac9d8e6d7e9c592
